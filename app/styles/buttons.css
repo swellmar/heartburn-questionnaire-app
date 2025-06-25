@@ -1,0 +1,21 @@
+.btn-primary {
+    @apply w-full py-3 px-4 rounded-lg font-medium transition-colors flex items-center justify-center;
+    @apply bg-blue-600 text-white hover:bg-blue-700;
+}
+
+.btn-primary:disabled {
+    @apply bg-gray-300 text-gray-500 cursor-not-allowed;
+}
+
+.btn-secondary {
+    @apply w-full text-blue-600 py-3 px-4 font-medium hover:bg-blue-50 transition-colors rounded-lg;
+}
+
+.answer-btn {
+    @apply w-full p-4 text-left border rounded-lg transition-all;
+    @apply border-gray-300 bg-white text-gray-700 hover:border-gray-400;
+}
+
+.answer-btn.selected {
+    @apply border-blue-500 bg-blue-50 text-blue-700;
+}

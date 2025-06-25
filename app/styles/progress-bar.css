@@ -1,0 +1,23 @@
+.progress-container {
+    @apply px-6 py-4 bg-gray-50 border-b;
+}
+
+.progress-header {
+    @apply flex justify-between items-center mb-2;
+}
+
+.progress-label {
+    @apply text-sm text-gray-600;
+}
+
+.progress-percentage {
+    @apply text-sm font-medium text-gray-900;
+}
+
+.progress-track {
+    @apply w-full bg-gray-200 rounded-full h-2;
+}
+
+.progress-fill {
+    @apply bg-blue-600 h-2 rounded-full transition-all duration-300;
+}

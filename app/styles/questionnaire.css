@@ -1,0 +1,11 @@
+.questionnaire-content {
+    @apply px-6 py-8;
+}
+
+.questionnaire-section {
+    @apply mb-8;
+}
+
+.answer-list {
+    @apply space-y-3;
+}
